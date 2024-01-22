@@ -18,16 +18,24 @@
 /* ===== 왼쪽 링크와 로고 ===== */
 .header__homelink {
   display: inline-block;
-  padding: 0 24px;
+  padding-left: 0px;
+  padding-right: 24px;
   height: var(--height-toolbar);
   line-height: var(--height-toolbar);
   cursor: pointer;
 }
 
 .header__logo {
-  height: 48px;
+  margin-left: 20px;
+  max-width: 100%;
+  overflow-clip-margin: content-box;
   vertical-align: middle;
   margin-bottom: 4px;
+  cursor: pointer;
+}
+
+.header__logo img {
+  width: 30px;
 }
 
 /* ===== 네비게이션 ===== */
