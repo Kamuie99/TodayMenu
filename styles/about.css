@@ -4,15 +4,17 @@
 
 .about {
   display: inline-flex;
-  gap: 1em;
+  gap: 1.6em;
   margin-top: 48px;
   margin-bottom: 48px;
 }
 
 .about__card {
+  height: 200px;
   display: flex;
   align-items: center;
   flex-direction: row;
+  margin-bottom: 2em;
   padding: 48px;
   padding-left: 20px;
   text-align: center;
@@ -44,6 +46,10 @@
 
 .about__title._3 {
   color: #FFBDCE;
+}
+
+.about__title._4 {
+  color: #FFFFB5;
 }
 
 .about__text {
