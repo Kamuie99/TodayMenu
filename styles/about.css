@@ -11,10 +11,10 @@
 
 .about__card {
   height: 200px;
+  margin-bottom: 2em; /* 왜 안먹어주니 깃헙아 */
   display: flex;
   align-items: center;
   flex-direction: row;
-  margin-bottom: 2em;
   padding: 48px;
   padding-left: 20px;
   text-align: center;
